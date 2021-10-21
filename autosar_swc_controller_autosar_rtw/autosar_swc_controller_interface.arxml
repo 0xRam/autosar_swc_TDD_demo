@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Auto generated XML Component Description for model autosar_swc_controller
+Model version                : 1.26
+Simulink Coder version       : Simulink Coder 9.1 (R2019a) 23-Nov-2018
+XML source code generated on : Thu Oct 21 12:58:44 2021
+Model Checksum               : 152057818 151360697 3512704751 4135208713
+-->
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+    <AR-PACKAGES>
+        <AR-PACKAGE UUID="bfb818d0-ad52-5e36-1d80-c31a7be21d8a">
+            <SHORT-NAME>Company</SHORT-NAME>
+            <AR-PACKAGES>
+                <AR-PACKAGE UUID="63a60937-0588-5bca-4a86-02d4a7aee777">
+                    <SHORT-NAME>Interfaces</SHORT-NAME>
+                    <ELEMENTS>
+                        <SENDER-RECEIVER-INTERFACE UUID="06D9B2CB-E7BA-4903-AF76-DA2985A6DAF9">
+                            <SHORT-NAME>APP_HwIO</SHORT-NAME>
+                            <IS-SERVICE>false</IS-SERVICE>
+                            <DATA-ELEMENTS>
+                                <VARIABLE-DATA-PROTOTYPE UUID="DCF6B13A-B77A-4820-B225-73670562AF81">
+                                    <SHORT-NAME>Value</SHORT-NAME>
+                                    <CATEGORY>VALUE</CATEGORY>
+                                    <SW-DATA-DEF-PROPS>
+                                        <SW-DATA-DEF-PROPS-VARIANTS>
+                                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                                <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                                                <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+                                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                                        </SW-DATA-DEF-PROPS-VARIANTS>
+                                    </SW-DATA-DEF-PROPS>
+                                    <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_Platform/ImplementationDataTypes/uint16</TYPE-TREF>
+                                </VARIABLE-DATA-PROTOTYPE>
+                            </DATA-ELEMENTS>
+                            <INVALIDATION-POLICYS>
+                                <INVALIDATION-POLICY>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Company/Interfaces/APP_HwIO/Value</DATA-ELEMENT-REF>
+                                    <HANDLE-INVALID>DONT-INVALIDATE</HANDLE-INVALID>
+                                </INVALIDATION-POLICY>
+                            </INVALIDATION-POLICYS>
+                        </SENDER-RECEIVER-INTERFACE>
+                        <SENDER-RECEIVER-INTERFACE UUID="5D219F47-6117-4344-B179-2CDA3D9D3564">
+                            <SHORT-NAME>APP_Percent</SHORT-NAME>
+                            <IS-SERVICE>false</IS-SERVICE>
+                            <DATA-ELEMENTS>
+                                <VARIABLE-DATA-PROTOTYPE UUID="8589BFAC-A96F-4D10-9E70-080CD28D177E">
+                                    <SHORT-NAME>Value</SHORT-NAME>
+                                    <CATEGORY>VALUE</CATEGORY>
+                                    <SW-DATA-DEF-PROPS>
+                                        <SW-DATA-DEF-PROPS-VARIANTS>
+                                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                                <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                                                <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+                                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                                        </SW-DATA-DEF-PROPS-VARIANTS>
+                                    </SW-DATA-DEF-PROPS>
+                                    <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_Platform/ImplementationDataTypes/float32</TYPE-TREF>
+                                </VARIABLE-DATA-PROTOTYPE>
+                            </DATA-ELEMENTS>
+                            <INVALIDATION-POLICYS>
+                                <INVALIDATION-POLICY>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Company/Interfaces/APP_Percent/Value</DATA-ELEMENT-REF>
+                                    <HANDLE-INVALID>DONT-INVALIDATE</HANDLE-INVALID>
+                                </INVALIDATION-POLICY>
+                            </INVALIDATION-POLICYS>
+                        </SENDER-RECEIVER-INTERFACE>
+                        <SENDER-RECEIVER-INTERFACE UUID="770B4D4C-574A-4D0B-B1D2-1473F4CB2E70">
+                            <SHORT-NAME>ThrCmd_HwIO</SHORT-NAME>
+                            <IS-SERVICE>false</IS-SERVICE>
+                            <DATA-ELEMENTS>
+                                <VARIABLE-DATA-PROTOTYPE UUID="ACF555A2-D84A-4113-BD08-E248A10FB301">
+                                    <SHORT-NAME>Value</SHORT-NAME>
+                                    <CATEGORY>VALUE</CATEGORY>
+                                    <SW-DATA-DEF-PROPS>
+                                        <SW-DATA-DEF-PROPS-VARIANTS>
+                                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                                <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                                                <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+                                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                                        </SW-DATA-DEF-PROPS-VARIANTS>
+                                    </SW-DATA-DEF-PROPS>
+                                    <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_Platform/ImplementationDataTypes/uint16</TYPE-TREF>
+                                </VARIABLE-DATA-PROTOTYPE>
+                            </DATA-ELEMENTS>
+                            <INVALIDATION-POLICYS>
+                                <INVALIDATION-POLICY>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Company/Interfaces/ThrCmd_HwIO/Value</DATA-ELEMENT-REF>
+                                    <HANDLE-INVALID>DONT-INVALIDATE</HANDLE-INVALID>
+                                </INVALIDATION-POLICY>
+                            </INVALIDATION-POLICYS>
+                        </SENDER-RECEIVER-INTERFACE>
+                        <SENDER-RECEIVER-INTERFACE UUID="ED6BE11B-B9CF-4FB5-AFC5-E7F7358ACC3D">
+                            <SHORT-NAME>ThrCmd_Percent</SHORT-NAME>
+                            <IS-SERVICE>false</IS-SERVICE>
+                            <DATA-ELEMENTS>
+                                <VARIABLE-DATA-PROTOTYPE UUID="2BD3BDA1-E42C-4DED-B871-07144F6FA8D4">
+                                    <SHORT-NAME>Value</SHORT-NAME>
+                                    <CATEGORY>VALUE</CATEGORY>
+                                    <SW-DATA-DEF-PROPS>
+                                        <SW-DATA-DEF-PROPS-VARIANTS>
+                                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                                <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                                                <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+                                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                                        </SW-DATA-DEF-PROPS-VARIANTS>
+                                    </SW-DATA-DEF-PROPS>
+                                    <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_Platform/ImplementationDataTypes/float32</TYPE-TREF>
+                                </VARIABLE-DATA-PROTOTYPE>
+                            </DATA-ELEMENTS>
+                            <INVALIDATION-POLICYS>
+                                <INVALIDATION-POLICY>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Company/Interfaces/ThrCmd_Percent/Value</DATA-ELEMENT-REF>
+                                    <HANDLE-INVALID>DONT-INVALIDATE</HANDLE-INVALID>
+                                </INVALIDATION-POLICY>
+                            </INVALIDATION-POLICYS>
+                        </SENDER-RECEIVER-INTERFACE>
+                        <SENDER-RECEIVER-INTERFACE UUID="EC413196-3DD6-4336-BCE6-E415F6FECEDD">
+                            <SHORT-NAME>TPS_HwIO</SHORT-NAME>
+                            <IS-SERVICE>false</IS-SERVICE>
+                            <DATA-ELEMENTS>
+                                <VARIABLE-DATA-PROTOTYPE UUID="7A9C5BD9-6B96-434C-84C8-06A339A4BB7F">
+                                    <SHORT-NAME>Value</SHORT-NAME>
+                                    <CATEGORY>VALUE</CATEGORY>
+                                    <SW-DATA-DEF-PROPS>
+                                        <SW-DATA-DEF-PROPS-VARIANTS>
+                                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                                <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                                                <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+                                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                                        </SW-DATA-DEF-PROPS-VARIANTS>
+                                    </SW-DATA-DEF-PROPS>
+                                    <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_Platform/ImplementationDataTypes/uint16</TYPE-TREF>
+                                </VARIABLE-DATA-PROTOTYPE>
+                            </DATA-ELEMENTS>
+                            <INVALIDATION-POLICYS>
+                                <INVALIDATION-POLICY>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Company/Interfaces/TPS_HwIO/Value</DATA-ELEMENT-REF>
+                                    <HANDLE-INVALID>DONT-INVALIDATE</HANDLE-INVALID>
+                                </INVALIDATION-POLICY>
+                            </INVALIDATION-POLICYS>
+                        </SENDER-RECEIVER-INTERFACE>
+                        <SENDER-RECEIVER-INTERFACE UUID="993FE638-B2BE-4F8B-8C5F-22C2B77B7B32">
+                            <SHORT-NAME>TPS_Percent</SHORT-NAME>
+                            <IS-SERVICE>false</IS-SERVICE>
+                            <DATA-ELEMENTS>
+                                <VARIABLE-DATA-PROTOTYPE UUID="9304C723-22CB-4E07-885D-0A88382A8A00">
+                                    <SHORT-NAME>Value</SHORT-NAME>
+                                    <CATEGORY>VALUE</CATEGORY>
+                                    <SW-DATA-DEF-PROPS>
+                                        <SW-DATA-DEF-PROPS-VARIANTS>
+                                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                                <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                                                <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+                                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                                        </SW-DATA-DEF-PROPS-VARIANTS>
+                                    </SW-DATA-DEF-PROPS>
+                                    <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_Platform/ImplementationDataTypes/float32</TYPE-TREF>
+                                </VARIABLE-DATA-PROTOTYPE>
+                            </DATA-ELEMENTS>
+                            <INVALIDATION-POLICYS>
+                                <INVALIDATION-POLICY>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Company/Interfaces/TPS_Percent/Value</DATA-ELEMENT-REF>
+                                    <HANDLE-INVALID>DONT-INVALIDATE</HANDLE-INVALID>
+                                </INVALIDATION-POLICY>
+                            </INVALIDATION-POLICYS>
+                        </SENDER-RECEIVER-INTERFACE>
+                    </ELEMENTS>
+                </AR-PACKAGE>
+            </AR-PACKAGES>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>

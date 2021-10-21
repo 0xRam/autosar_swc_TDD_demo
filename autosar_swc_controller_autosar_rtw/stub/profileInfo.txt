@@ -1,0 +1,4 @@
+#C:\Users\t6622rw\Documents\Projects\Virtual Test Methods\DevOps\autosar_swc_example\autosar_swc_controller_autosar_rtw\stub\Rte_Controller.h
+#this file contains the list of RTE methods that the profiling must filter out
+-Rte_IWrite_Runnable_Step_ThrCmd_Percent_Value
+-Rte_IWriteRef_Runnable_Step_ThrCmd_Percent_Value

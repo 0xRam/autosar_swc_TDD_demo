@@ -1,0 +1,9 @@
+-IC:/Users/t6622rw/Documents/Projects/Virtual\ Test\ Methods/DevOps/autosar_swc_example
+-IC:/Users/t6622rw/Documents/Projects/Virtual\ Test\ Methods/DevOps/autosar_swc_example/autosar_swc_controller_autosar_rtw
+-IC:/Apps/MATLAB/R2019a/toolbox/coder/autosar/rte
+-IC:/Users/t6622rw/Documents/Projects/Virtual\ Test\ Methods/DevOps/autosar_swc_example/autosar_swc_controller_autosar_rtw/stub
+-IC:/Apps/MATLAB/R2019a/extern/include
+-IC:/Apps/MATLAB/R2019a/simulink/include
+-IC:/Apps/MATLAB/R2019a/rtw/c/src
+-IC:/Apps/MATLAB/R2019a/rtw/c/src/ext_mode/common
+-IC:/Apps/MATLAB/R2019a/rtw/c/ert
